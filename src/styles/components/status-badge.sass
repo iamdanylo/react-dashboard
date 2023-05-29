@@ -1,0 +1,64 @@
+.status-badge,
+.subscription-status-badge
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 12px
+    padding: 10px
+    text-transform: capitalize
+    min-width: 130px
+    &.new
+        background-color: #E8E8FF
+        color: #1E1E70
+    &.awaiting_review
+        background-color: #E8E8FF
+        color: #1E1E70
+    &.approved
+        background-color: #E8E8FF
+        color: #1E1E70
+    &.active
+        background-color: #C1F2B6
+        color: #0B5731
+    &.rejected
+        background-color: #FBF6EF
+        color: #000000
+    &.past_due
+        background-color: #FACAC8
+        color: #B3040F
+    &.inactive
+        background-color: #FBF6EF
+        color: #000000
+    &.paused
+        background-color: rgba(193, 242, 182, 0.5)
+        color: rgba(11, 87, 49, 0.5)
+    &.guest
+        background-color: #feffcc
+        color: #030302
+
+    &.INCOMPLETE_EXPIRED
+        background-color: #E8E8FF
+        color: #1E1E70
+    &.incomplete
+        background-color: #E8E8FF
+        color: #1E1E70
+    &.trialing
+        background-color: #E8E8FF
+        color: #1E1E70
+    &.active
+        background-color: #C1F2B6
+        color: #0B5731
+    &.unpaid
+        background-color: #FBF6EF
+        color: #000000
+    &.past_due,
+    &.canceled
+        background-color: #FACAC8
+        color: #B3040F
+    &.inactive
+        background-color: #FBF6EF
+        color: #000000
+    &.active_canceled
+        background-color: #feffcc
+        color: #030302
+    .status-badge-label
+        position: relative

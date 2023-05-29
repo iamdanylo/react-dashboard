@@ -1,0 +1,33 @@
+.context-menu-button
+    width: 32px
+    height: 32px
+    background: #FBFBFF
+    border-radius: 11px
+    cursor: pointer
+    display: flex
+    align-items: center
+    justify-content: center
+    .dot
+        width: 3px
+        height: 3px
+        border-radius: 100%
+        background-color: #4C4CA0
+        &:not(:last-child)
+            margin-right: 2px
+    
+.context-menu
+    .MuiList-root
+        padding: 0
+
+.context-menu-item
+    background-color: transparent
+    padding: 8px
+    cursor: pointer
+    border-bottom: 1px solid #F7F7FF
+    transition: all 0.3s ease
+    &:hover
+        background-color: rgb(76 76 160 / 10%)
+
+.context-menu-label 
+    font-size: 12px
+    color: #1E1E70

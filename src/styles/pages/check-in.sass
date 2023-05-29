@@ -1,0 +1,42 @@
+.rdrDefinedRangesWrapper
+  display: none
+
+[role='tooltip'].date-pop-up-content
+  width: fit-content
+
+.table-cell-hover
+  transition: all .3s ease-in
+  &:hover 
+    text-decoration: underline
+    cursor: pointer
+
+.event-date-filter-item
+    height: 44px
+    width: 100px
+    border-radius: 17px
+    display: flex
+    align-items: center
+    justify-content: center
+    cursor: pointer
+    transition: all 0.2s ease
+    filter: none
+    background-color: transparent
+    .date-icon-wrap
+      width: 14px
+      height: 14px
+      display: flex
+      justify-content: center
+      align-items: center
+      svg
+        width: 100%
+    &.active
+      filter: drop-shadow(rgba(29, 62, 46, 0.12) 0px 6px 12px)
+      background-color: rgb(245, 252, 248)
+      .filter-text
+        color: #0B5731
+        .date-icon-wrap
+          svg
+            path
+              fill: #0B5731
+    .filter-text
+      color: black

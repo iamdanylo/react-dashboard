@@ -1,0 +1,48 @@
+.sidebar
+    position: relative
+    .sidebar-links-wrap
+        padding: 0 14px
+    .sidebar-link
+        padding: 14px 12px
+        &.active
+            img
+                -webkit-filter: brightness(10)
+                filter: brightness(10)
+    .sidebar-link-icon
+        margin-right: 16px
+    .sidebar-sublinks
+        padding-left: 32px
+    .sidebar-logo-wrap
+        padding: 32px 24px
+        width: 110px
+        margin-bottom: 32px
+        .sidebar-logo
+            width: 100%
+    .sidebar-sublink-text
+        color: #747481
+        &::after
+            content: ''
+            display: none
+            width: 3px
+            height: 100%
+            background-color: #1E1E70
+            position: absolute
+            top: 0
+            right: 0
+        &.active
+            color: #1E1E70
+            &::after
+                display: block
+    .sidebar-logout
+        margin-left: 24px
+        margin-bottom: 38px
+        display: flex
+        z-index: 2
+        cursor: pointer
+        img
+            margin-right: 18px
+    .sidebar-nav-wrap
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        flex: 1

@@ -1,0 +1,30 @@
+.reach-text-wrap
+    .ql-editor.ql-blank::before
+        color: #1E1E70
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 400
+        font-size: 12px
+        line-height: 21px
+    .ql-container
+        font-family: Inter
+        &.ql-show
+        .ql-tooltip
+            z-index: 20
+    &.error
+        .ql-toolbar
+            &.ql-snow
+                border-color: red
+        .ql-container
+             &.ql-snow
+                border-color: red           
+    .ql-toolbar
+        border-top-left-radius: 12px
+        border-top-right-radius: 12px
+        &.ql-snow
+            border-color: #F7F7FF
+    .ql-container
+        border-bottom-left-radius: 12px
+        border-bottom-right-radius: 12px
+        &.ql-snow
+            border-color: #F7F7FF
