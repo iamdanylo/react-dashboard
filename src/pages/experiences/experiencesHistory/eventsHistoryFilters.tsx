@@ -1,7 +1,7 @@
 import React from 'react';
 import Stack from '@mui/material/Stack';
 import { SearchInput } from 'components';
-import DateFilters from './historyDateRangeFilter';
+import DateFilters from './HistoryDateRangeFilter';
 import moment from 'moment';
 import { DateFilterOption, DateRange } from 'types/experiences';
 

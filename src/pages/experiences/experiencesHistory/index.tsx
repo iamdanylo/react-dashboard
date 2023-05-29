@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import { Page, WhiteBox } from 'components';
 import Typography from '@mui/material/Typography';
 import EventsTable from '../components/EventsTable';
-import EventsHistoryFilters from './eventsHistoryFilters';
+import EventsHistoryFilters from './EventsHistoryFilters';
 import { historyExperiencesSelector, totalHistorySelector, experiencesLoadingSelector } from 'redux/selectors/experiences';
 import { experiencesActions } from 'redux/reducers/experiences';
 import { useDidUpdateEffect } from 'utils/hooks';
